@@ -106,11 +106,10 @@
         left: 160px;
         max-width: 70%;
     }
-    
-    
+
     .music{
         top: 85px;
-        left: 295px;
+        right: 80%;
 
         width: 40px;
         height: 40px;
@@ -119,9 +118,9 @@
         visibility: visible;
         position: absolute;
         top: 40px;
-        left: 285px;
+        left: 80%;
         font-size: 12px;
-        font-family: 'Gilroy-Light';
+        font-family: 'Gilroy-Light', sans-serif;
         color: white;
         padding: 0;
     }
