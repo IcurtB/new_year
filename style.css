@@ -1,0 +1,122 @@
+@font-face {
+	font-family: 'Campanella';
+	src: url('./fonts/campanella.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/campanella.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/campanella.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/campanella.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/campanella.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/campanella.svg#campanella') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Light';
+	src: url('./fonts/gilroy-light.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/gilroy-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/gilroy-light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/gilroy-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/gilroy-light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/gilroy-light.svg#gilroy-light') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body{
+    background-color: #1A5B35;
+    margin: 0;
+    padding: 0;
+}
+
+.time_box{
+    visibility: hidden;
+    height: 40px;
+    
+}
+
+.container{
+
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dear_friends{
+    max-width: 660px;
+    height: 339px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: Campanella;
+    font-size: 72px;
+    line-height: 125px;
+    margin: 0;
+    color: #D6BD84;
+}
+
+.text{
+    font-family: 'Gilroy-Light';
+    font-size: 18px;
+    line-height: 21.83px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.sign{
+    position: relative;
+    font-family: 'Gilroy-Light';
+    font-size: 22px;
+    line-height: 26.63px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+.center_pic{
+    position: absolute;
+    left: 220px;
+    bottom: -20px;
+}
+
+
+.megacom{
+    margin-top: 150px;
+}
+
+
+
+
+.right_top{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.left_top{
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+.music{
+    position: absolute;
+    bottom: 76px;
+    left: 14px;
+}
+.left_bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.music_t{
+    visibility: hidden;
+}
