@@ -106,10 +106,14 @@
         left: 160px;
         max-width: 70%;
     }
+    .for_adopt{
+        width: 100%;
+        height: 100%;
+    }
 
     .music{
         top: 85px;
-        right: 80%;
+        left: 80%;
 
         width: 40px;
         height: 40px;
